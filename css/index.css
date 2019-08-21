@@ -8,18 +8,18 @@ body {
   width: 75%;
   left : 10%;
   right : 10%;
+  margin-top:0rem ;
+
 }
 
 .navbar {
   background-color: pink;
   height: 67px;
-  line-height: 50px;
 }
 
 .logo {
   margin-top: 10px
 }
-
 .nav-item {
   float: right;
   /* position: relative; */
@@ -47,7 +47,7 @@ body {
   padding-left:0;
 }
 
-.top-image {
+.top-image img{
   width: 100%;
 
 }
@@ -59,7 +59,8 @@ body {
 }
 
 .side_menu {
-  margin-top: 1rem;
+  margin-top:0;
+  float: initial;
 }
 
 .item1 {
@@ -69,6 +70,7 @@ body {
   width: 22rem;
   margin-left: 2px;
   padding-top: 2rem;
+  display: block;
 
 }
 
@@ -89,6 +91,7 @@ body {
   width: 22rem;
   margin-left: 1px;
   padding-top: 2rem;
+  display:block;
   
   
 }
@@ -100,6 +103,7 @@ body {
   width: 22rem;
   margin-left: 2px;
   padding-top: 2rem;
+  display:block;
   
 
 }
@@ -144,7 +148,7 @@ body {
 .form {
   padding: 1rem;
   position: relative;
-  bottom: 4rem;
+  bottom: 11rem;
 
   
 
